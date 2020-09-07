@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background-color: blue;
+}
+
+table.students {
+  background-color: blue;
+  box-shadow: 0 0 10px #a9a9a9;
+  border-radius: 5px;
+  margin-top: 0px;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 15px;
+  display: inline-block;
+}

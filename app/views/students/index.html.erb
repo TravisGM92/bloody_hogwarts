@@ -1,0 +1,14 @@
+<body>
+  <% number = 1 %>
+  <% @sorted_students.each do |student|  %>
+    <div class="students" id="student-<%= student.id %>-<%=number%>">
+      <table class="students">
+        <p>student: <%= student.name %></p>
+        <p>Age: <%= student.age %></p>
+        <p>House: <%= student.house %></p>
+      </table>
+    </div>
+    <%number += 1 %>
+  <% end %>
+  <p>Average age: <%= @average %> </p>
+</body>
